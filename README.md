@@ -1,4 +1,4 @@
-# MultiSport Tracker (Edge AI / TinyML) 🏃‍♂️🤖
+# MultiSport Tracker (Edge AI / TinyML) 
 
 An autonomous wearable system designed for real-time fitness exercise classification and repetition counting. This project is built using **Zephyr RTOS**, machine learning via **Edge Impulse**, and the ultra-low-power **Seeed Studio XIAO nRF54L15 Sense** microcontroller.
 
