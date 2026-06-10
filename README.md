@@ -30,5 +30,5 @@ A dataset containing over 26 minutes of movement data was collected directly usi
 * **Operating System:** Zephyr RTOS
 * **Development Kit:** nRF Connect SDK v3.0.1
 * **Flashing Process:** Since the nRF54L15 is a brand new SoC on the market, traditional `openocd` tools may throw IDR mismatch errors. The compiled firmware (`merged.hex`) is safely flashed using the modern `pyocd` toolchain along with target-specific hardware reset scripts:
-  ```bash
+  
   pyocd flash build/merged.hex -t nrf54l
